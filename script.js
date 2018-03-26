@@ -54,7 +54,6 @@ class Stopwatch extends React.Component {
     clearInterval(this.watch);
 }
 }
-// });
 
 let startButton = document.getElementById('start');
 	startButton.addEventListener('click', () => stopwatch.start());
